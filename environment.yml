@@ -1,0 +1,15 @@
+name: open2c
+channels:
+    - conda-forge
+    - defaults
+    - bioconda
+dependencies:
+    - python=3.8
+    - pip
+    - cython
+    - numpy
+    - h5py
+    - pip:
+        - jupyterlab
+        - ipython
+        - cooltools==0.5.0
