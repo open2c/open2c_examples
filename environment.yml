@@ -9,7 +9,13 @@ dependencies:
     - cython
     - numpy
     - h5py
+    - pysam
     - pip:
         - jupyterlab
         - ipython
+        - ipywidgets
+        - pytest
+        - nbsmoke
+        - seaborn
+        - pybbi
         - cooltools==0.5.0
