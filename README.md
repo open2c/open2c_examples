@@ -22,9 +22,9 @@ Then navigate to the `open2c_examples` directory and use `environment.yml` file 
 export PIP_NO_CACHE_DIR=1
 cd open2c_examples
 conda env create -f environment.yml
-``
+```
 Note that the environmental variable `PIP_NO_CACHE_DIR` is set, as this helped avoid numba and numpy version conflicts.
-`
+
 Activate the environment and launch jupyter:
 ```sh
 conda activate open2c
