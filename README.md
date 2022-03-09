@@ -12,16 +12,19 @@ Note that these notebooks currently focus on mammalian interphase Hi-C analysis,
 
 # Installation
 
-Clone ope2c_exampnles on your computer using `git clone` command, and checkout the recent version:
+Clone `open2c_examples` on your computer using `git clone` command, and checkout the recent version:
 ```sh
 git clone https://github.com/open2c/open2c_examples
 git checkout cooltools-0.5.0
 ```
 Then navigate to the `open2c_examples` directory and use `environment.yml` file to create a conda environment `open2c` with the software packages required to run these notebooks:
 ```sh
+export PIP_NO_CACHE_DIR=1
 cd open2c_examples
 conda env create -f environment.yml
-```
+``
+Note that the environmental variable `PIP_NO_CACHE_DIR` is set, as this helped avoid numba and numpy version conflicts.
+`
 Activate the environment and launch jupyter:
 ```sh
 conda activate open2c

@@ -8,6 +8,7 @@ dependencies:
     - pip
     - cython
     - numpy
+    - numba
     - h5py
     - pysam
     - pip:
@@ -18,4 +19,4 @@ dependencies:
         - nbsmoke
         - seaborn
         - pybbi
-        - cooltools==0.5.0
+        - cooltools==0.5.1
