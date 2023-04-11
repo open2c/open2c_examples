@@ -7,7 +7,7 @@ dependencies:
     - python=3.9
     - pip
     - cython
-    - numpy
+    - numpy<1.24
     - numba
     - h5py
     - pysam
@@ -19,4 +19,6 @@ dependencies:
         - nbsmoke
         - seaborn
         - pybbi
-        - cooltools==0.5.2
+        - cooler
+        - cooltools==0.5.4
+
