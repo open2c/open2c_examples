@@ -20,5 +20,6 @@ dependencies:
         - seaborn
         - pybbi
         - cooler
-        - cooltools==0.5.4
+        - bioframe==0.5.1
+        - cooltools==0.6.1
 
